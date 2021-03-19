@@ -10,6 +10,9 @@ public class Login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        //will hide the status bar of the activity
         getSupportActionBar().hide();
+
     }
 }
