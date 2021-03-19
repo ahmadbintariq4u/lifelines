@@ -1,8 +1,10 @@
-package com.comsats.lifelines;
+package com.comsats.login;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.comsats.lifelines.R;
 
 public class Login extends AppCompatActivity {
 

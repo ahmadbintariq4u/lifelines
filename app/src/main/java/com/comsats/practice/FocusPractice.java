@@ -1,20 +1,19 @@
-package com.comsats.lifelines;
+package com.comsats.practice;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.solver.state.State;
-
-import android.graphics.Path;
 import android.os.Bundle;
 import android.view.View;
-import com.comsats.lifelines.databinding.ActivityPracticeFocusBinding;
 
-public class practice extends AppCompatActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
-    ActivityPracticeFocusBinding binding;
+import com.comsats.lifelines.databinding.ActivityFocusPracticeBinding;
+
+public class FocusPractice  extends AppCompatActivity {
+
+    ActivityFocusPracticeBinding binding;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding=ActivityPracticeFocusBinding.inflate(getLayoutInflater());
+        binding= com.comsats.lifelines.databinding.ActivityFocusPracticeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.focus.setOnClickListener(new View.OnClickListener() {
@@ -33,8 +32,6 @@ public class practice extends AppCompatActivity {
 
 
     }
-
-
 
 
 }
