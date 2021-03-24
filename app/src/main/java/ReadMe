@@ -1,0 +1,15 @@
+// ====================================================== //
+                  Template for Fontawesome Icon.
+
+<info.androidhive.fontawesome.FontTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fa_calendar_check_solid"
+            android:textColor="@color/icon_color"
+            android:textSize="@dimen/icon_size"
+            app:solid_icon="true" />
+
+
+// ====================================================== //
+
+
