@@ -1,4 +1,4 @@
-package com.comsats.practice;
+package com.comsats.miscellaneous;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +13,7 @@ public class FocusPractice  extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding= com.comsats.lifelines.databinding.ActivityFocusPracticeBinding.inflate(getLayoutInflater());
+        binding= ActivityFocusPracticeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.focus.setOnClickListener(new View.OnClickListener() {

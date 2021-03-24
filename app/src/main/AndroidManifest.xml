@@ -9,33 +9,19 @@
         android:roundIcon="@drawable/heart"
         android:supportsRtl="true"
         android:theme="@style/Theme.LifeLines">
-        <activity android:name="com.comsats.miscellaneous.ListOfAllActivities">
+
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
-        <activity android:name="com.comsats.login.Login">
 
-            <!--             <intent-filter>-->
-            <!--             <action android:name="android.intent.action.MAIN" />-->
-            <!--             <category android:name="android.intent.category.LAUNCHER" />-->
-            <!--             </intent-filter>-->
-
-        </activity>
-        <activity android:name=".MainActivity">
-            <!--            <intent-filter>-->
-            <!--                <action android:name="android.intent.action.MAIN" />-->
-
-            <!--                <category android:name="android.intent.category.LAUNCHER" />-->
-            <!--            </intent-filter>-->
+        <activity android:name="com.comsats.miscellaneous.FocusPractice">
+            
         </activity>
 
-        <activity android:name="com.comsats.practice.FocusPractice">
-
-
-        </activity>
 
     </application>
 
